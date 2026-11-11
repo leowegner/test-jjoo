@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b1120">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Test JJOO">
+<title>Test JJ.OO. · Educación Física</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏅</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div>
+      <h1>🏅 Test JJ.OO.</h1>
+      <p>Educación Física · 1ª Evaluación · <span id="total"></span> preguntas</p>
+    </div>
+    <span id="score" class="pill hidden"></span>
+  </header>
+
+  <!-- SETUP -->
+  <section id="setup" class="card">
+    <div class="label">Modo</div>
+    <div class="modes">
+      <button class="mode on" data-mode="test"><span class="ico">✍️</span><b>Test</b><small>Corrige al momento</small></button>
+      <button class="mode" data-mode="exam"><span class="ico">📝</span><b>Examen</b><small>40 al azar, nota al final</small></button>
+      <button class="mode" data-mode="review"><span class="ico">📖</span><b>Repaso</b><small>Ver las respuestas</small></button>
+    </div>
+
+    <div class="label">Qué estudiar</div>
+    <div class="quick">
+      <button class="qbtn on" data-q="all">Todo</button>
+      <button class="qbtn" data-q="aband">🚩 Abanderados</button>
+      <button class="qbtn" data-q="cabe">⚠️ Cabe destacar</button>
+      <button class="qbtn" data-q="fails">❌ Mis falladas (<span id="failsCount">0</span>)</button>
+    </div>
+
+    <div class="row">
+      <div class="label" style="margin:14px 0 0">Temas</div>
+      <div><button id="allBtn" class="link">Todos</button> · <button id="noneBtn" class="link">Ninguno</button></div>
+    </div>
+    <div id="chips" class="chips" style="margin-top:8px"></div>
+
+    <div class="label">Opciones</div>
+    <label class="switch">
+      <span>Trampas en «Cabe destacar»<small>Cambia un dato al azar, como en el examen</small></span>
+      <span class="tg"><input id="trapToggle" type="checkbox" checked><span></span></span>
+    </label>
+    <label class="switch">
+      <span>Mezclar preguntas</span>
+      <span class="tg"><input id="shuffleToggle" type="checkbox" checked><span></span></span>
+    </label>
+
+    <p id="stats" class="stats"></p>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="quiz" class="hidden">
+    <div class="prog"><div class="track"><div id="fill" class="fill"></div></div><span id="progTxt"></span></div>
+    <div class="card">
+      <div id="meta" class="meta"></div>
+      <div id="qtext" class="qtext"></div>
+      <div id="opts" class="opts"></div>
+      <div id="fb" class="fb hidden"></div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="results" class="card res hidden">
+    <div id="resEmoji" class="big"></div>
+    <h2 id="resTitle"></h2>
+    <div id="pct" class="pct"></div>
+    <p id="resTxt"></p>
+    <div id="wrongList" class="wronglist"></div>
+  </section>
+</div>
+
+<nav id="setupBar" class="bar"><div><button id="startBtn" class="btn">Empezar</button></div></nav>
+<nav id="quizBar" class="bar hidden"><div><button id="quitBtn" class="btn sec">✕</button><button id="nextBtn" class="btn hidden">Siguiente →</button></div></nav>
+<nav id="resBar" class="bar hidden"><div><button id="menuBtn" class="btn sec">Menú</button><button id="retryBtn" class="btn red hidden">Repetir falladas</button></div></nav>
+
+<script src="questions.js"></script>
+<script src="abanderados.js"></script>
+<script src="cabe.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
