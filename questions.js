@@ -390,6 +390,22 @@ const QUESTIONS = [
 },
 {
 "id": 27,
+"q": "Cabe destacar de los Juegos de Londres 1908:",
+"options": {
+"a": "Se celebró por primera vez una ceremonia inaugural e incluso desfilaron los deportistas tras sus banderas, provocando algún que otro conflicto. Los finlandeses se negaron a desfilar tras la enseña rusa, que le tenía como protectorado. Además, el abanderado estadounidense se negó a inclinar la bandera de su país al paso por el palco de autoridades, ya que según una ley norteamericana “la bandera no debe inclinarse ni ante un rey”. Era el inicio de una rivalidad entre británicos y estadounidenses que estuvo muy presente durante todos los Juegos. El olimpismo se iba haciendo sitio en el mundo.",
+"b": "El recinto contó con una pista de cemento para la competición de ciclismo, otra de ceniza volcánica para atletismo y una piscina de 100 m. de longitud. En el centro del estadio quedó un amplio terreno de hierba para la práctica de rugby, fútbol, hockey, saltos, lanzamientos, lucha, gimnasia y tiro con arco. En Londres 1908 se incluyeron infinidad de pruebas nuevas como los relevos 1800, los 3500, las cinco millas y las diez millas de marcha. En natación se incluyeron por primera vez los 100, 400 y1500 metros libres, 100 espalda, los 200 braza y relevos masculinos,…",
+"c": "En la cena de clausura de los Juegos, tras las dos semanas donde se concentraron las principales pruebas, Pierre de Coubertain pronunció una frase, que ha pasado a formar parte de la historia, no sólo del Olimpismo, sino del deporte en general. “Lo importante no es ganar sino participar”, fueron las palabras pronunciadas por el barón. Éste se las había escuchado al arzobispo de Pensilvania, en el acto religioso que ofició en la catedral de San Pablo, con motivo de la celebración de los Juegos.",
+"d": "Todas son correctas."
+},
+"answer": "d",
+"section": "Londres 1908",
+"page": 8,
+"tags": [
+"cabe"
+]
+},
+{
+"id": 28,
 "q": "¿Dónde se celebraron los juegos de 1912?",
 "options": {
 "a": "Disneyland (Paris)",
@@ -403,7 +419,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 28,
+"id": 29,
 "q": "¿Quién fue el abanderado español en las olimpiadas del año de 1912?",
 "options": {
 "a": "Paquirrín",
@@ -419,7 +435,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 29,
+"id": 30,
 "q": "¿Dónde se iban a celebrar los juegos olímpicos de 1916?",
 "options": {
 "a": "Nuevamente en Atenas.",
@@ -433,7 +449,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 30,
+"id": 31,
 "q": "¿Qué tres acontecimientos fundamentales en la historia de los Juegos Olímpicos tuvieron lugar en Amberes en 1920?",
 "options": {
 "a": "La creación de un Comité Olímpico, la interpretación del Himno Olímpico y la primera retrasmisión televisiva de los juegos.",
@@ -447,7 +463,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 31,
+"id": 32,
 "q": "¿Tras qué acontecimiento bélico mundial, se celebraron los Juegos Olímpicos de Amberes en 1920, conocidos también como los juegos de la paz?",
 "options": {
 "a": "Tras la caída del Imperio Napoleónico.",
@@ -461,7 +477,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 32,
+"id": 33,
 "q": "¿Con qué sobrenombre se conocía al atleta Paavo Nurmi? (quien ha sido considerado como uno de los mejores deportistas de la historia).",
 "options": {
 "a": "Paavo Real",
@@ -475,7 +491,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 33,
+"id": 34,
 "q": "¿Cuántas medallas ganó España en Amberes 1920?",
 "options": {
 "a": "España no participó.",
@@ -489,7 +505,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 34,
+"id": 35,
 "q": "¿Quién redactó el juramento de los atletas en Amberes 1920?",
 "options": {
 "a": "Pierre de Coubertin.",
@@ -503,7 +519,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 35,
+"id": 36,
 "q": "¿Por qué el Rugby no es deporte olímpico?",
 "options": {
 "a": "Porque no hay suficientes selecciones que lo practiquen y tengan equipo.",
@@ -517,7 +533,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 36,
+"id": 37,
 "q": "¿Quién fue el atleta (nadador) más destacado en las olimpiadas de París 1924 (tres oros) y después de las cuales pasó a la gran pantalla con el personaje de Tarzán?",
 "options": {
 "a": "Roberto Cheveux.",
@@ -531,7 +547,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 37,
+"id": 38,
 "q": "¿Qué norteamericano consiguió el record mundial en París 1924 en salto de longitud?",
 "options": {
 "a": "Xiang Liu.",
@@ -545,7 +561,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 38,
+"id": 39,
 "q": "¿Por qué quería el barón Pierre realizar los Juegos Olímpicos en París?",
 "options": {
 "a": "Primero, porque era el trigésimo aniversario de la instauración de los Juegos Olímpicos y el otro motivo era para que París pudiera lavar la mala imagen de los juegos de 1900.",
@@ -559,7 +575,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 39,
+"id": 40,
 "q": "Cabe destacar de los Juegos de París 1924:",
 "options": {
 "a": "Son los Juegos Olímpicos donde por primera vez se construye una villa olímpica para los atletas de las distintas delegaciones.",
@@ -575,7 +591,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 40,
+"id": 41,
 "q": "Cabe destacar de España en los Juegos de Paris 1924:",
 "options": {
 "a": "España envió a Francia una delegación de 94 deportistas que compitieron en 14 deportes, pero no lograron ninguna medalla.",
@@ -591,7 +607,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 41,
+"id": 42,
 "q": "¿Cuándo ganó España su primer oro en las Olimpiadas?",
 "options": {
 "a": "En el año 1972. (Natación)",
@@ -605,7 +621,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 42,
+"id": 43,
 "q": "¿Cuándo se introdujo la tradición de encender el fuego olímpico?",
 "options": {
 "a": "París 1900.",
@@ -619,7 +635,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 43,
+"id": 44,
 "q": "Cabe destacar en los Juegos de Ámsterdam 1928:",
 "options": {
 "a": "La adicción del pebetero con la llama olímpica y mantenerla viva durante la total realización de los juegos (aunque el fuego no se trajo de Grecia, para ello hubo que esperar a Berlín 1936). En este año se incluyó a Alemania en las olimpiadas por primera vez tras 16 años de ausencia debido a la guerra que provocó.",
@@ -635,7 +651,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 44,
+"id": 45,
 "q": "Cabe destacar en los Juegos de Ámsterdam 1928:",
 "options": {
 "a": "La realeza se hizo presente en lo más alto de un podio olímpico por primera vez, gracias al príncipe Olaf de Noruega, quien ganó oro en las competiciones de vela, en la especialidad de yate de seis tripulantes. Se introduce la costumbre de iniciar los desfiles con Grecia (cuna del Olimpismo) y cerrarlos con el organizador, que se conserva hasta nuestros días.",
@@ -651,7 +667,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 45,
+"id": 46,
 "q": "Cabe destacar de los Juegos de Los Ángeles 1932:",
 "options": {
 "a": "La 'Gran Depresión Económica' que provocó que se redujera el número de países y deportistas participantes, especialmente del Viejo Continente. 1Así de 46 naciones concurrentes en la olimpiadaanterior se descendió a 37.",
@@ -667,7 +683,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 46,
+"id": 47,
 "q": "¿Qué atleta ganó la medalla de oro en salto de longitud batiendo el récord mundial en las Olimpiadas de Berlín 1936?",
 "options": {
 "a": "El alemán Lutz Long.",
@@ -681,7 +697,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 47,
+"id": 48,
 "q": "¿Estaba ya en el poder Adolf Hitler cuando se celebraron los Juegos Olímpicos de Berlín 1936?",
 "options": {
 "a": "No estoy seguro…",
@@ -695,7 +711,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 48,
+"id": 49,
 "q": "¿Para qué utilizaron los alemanes las Olimpiadas de Berlín 36?",
 "options": {
 "a": "Para vender souvenirs de la ciudad.",
@@ -709,7 +725,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 49,
+"id": 50,
 "q": "¿Participó España en los juegos Olímpicos de Berlín 1936?",
 "options": {
 "a": "No, los boicoteó con su no participación. Organizando como alternativa la olimpiada popular en Barcelona (que no se celebró por comenzar la Guerra Civil Española).",
@@ -723,7 +739,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 50,
+"id": 51,
 "q": "En la modalidad de atletismo el gran vencedor con 4 oros en las olimpiadas del 36 fue:",
 "options": {
 "a": "Jesse Owens. (salto largo, 100m, 200m y 4 x 100m)",
@@ -737,7 +753,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 51,
+"id": 52,
 "q": "¿En qué Juegos Olímpicos se realizó por primera vez una marcha de atletas, para transportar una antorcha con la llama desde las ruinas del templo de Hera en Olimpia?",
 "options": {
 "a": "En México 1968.",
@@ -751,7 +767,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 52,
+"id": 53,
 "q": "¿Dónde se iban a celebrar los juegos olímpicos de 1940?",
 "options": {
 "a": "Nuevamente en Berlín.",
@@ -765,7 +781,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 53,
+"id": 54,
 "q": "¿Dónde se iban a celebrar los juegos olímpicos de 1944?",
 "options": {
 "a": "Atenas.",
@@ -779,7 +795,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 54,
+"id": 55,
 "q": "¿Cuáles fueron los primeros Juegos Olímpicos retransmitidos por televisión?",
 "options": {
 "a": "Londres 1948.",
@@ -793,7 +809,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 55,
+"id": 56,
 "q": "¿Quién fue el abanderado español en Londres 1948?:",
 "options": {
 "a": "Gervasio Defer (gimnasia).",
@@ -809,7 +825,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 56,
+"id": 57,
 "q": "¿Cuántas medallas consiguió España en Londres 1948?",
 "options": {
 "a": "Ninguna, España no participó.",
@@ -823,7 +839,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 57,
+"id": 58,
 "q": "Cabe destacar de los Juegos de Londres 1948:",
 "options": {
 "a": "Fueron conocidos como “Los Juegos de la Austeridad”, (los países estaban recuperándose de la 2º Guerra Mundial).",
@@ -839,7 +855,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 58,
+"id": 59,
 "q": "¿Quién fue el abanderado español de las Olimpiadas de 1952 en Helsinki?",
 "options": {
 "a": "Luis Omedes. (Remo).",
@@ -855,7 +871,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 59,
+"id": 60,
 "q": "¿Quién fue el atleta más destacado de los Juegos Olímpicos de Helsinki 1952?",
 "options": {
 "a": "Nadia Comaneci. (Ganó en suelo con tres 10).",
@@ -869,7 +885,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 60,
+"id": 61,
 "q": "¿Cuántas medallas consiguió España en los Juegos Olímpicos de Helsinki 1952?",
 "options": {
 "a": "Siete medallas.",
@@ -883,7 +899,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 61,
+"id": 62,
 "q": "El pentatlón moderno está formado por cinco pruebas:",
 "options": {
 "a": "Tiro con arco, esgrima, natación 200 metros libres, hípica y carrera.",
@@ -897,7 +913,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 62,
+"id": 63,
 "q": "Cabe destacar de Helsinki 1952:",
 "options": {
 "a": "El torneo de fútbol fue, después de la de atletismo, la prueba que más público atrajo.",
@@ -913,7 +929,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 63,
+"id": 64,
 "q": "En la ceremonia de clausura de Melbourne 56 los países marcharon:",
 "options": {
 "a": "Todos abrazados, de la mano y en feliz armonía. (Que bonito…!)",
@@ -927,7 +943,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 64,
+"id": 65,
 "q": "En la XVI edición (Melbourne 56) de los JJ.OO España:",
 "options": {
 "a": "Llevó a 8 participantes.",
@@ -941,7 +957,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 65,
+"id": 66,
 "q": "Cabe destacar de los Juegos de Melbourne 1956:",
 "options": {
 "a": "Estos juegos fueron los primeros en celebrarse en el hemisferio meridional. Australia es un gran país dentro de los juegos, pues no ha faltado a ninguna cita olímpica.",
@@ -957,7 +973,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 66,
+"id": 67,
 "q": "Cabe destacar de los juegos de Melbourne 1956:",
 "options": {
 "a": "Otro problema era que había que esperar al verano austral para celebrar las olimpiadas y en algunos países participantes era invierno con lo cual había que modificar los calendarios deportivos de muchos de estos países para que pudieran asistir pues era plena temporada deportiva en estos.",
@@ -973,7 +989,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 67,
+"id": 68,
 "q": "¿Por qué Sudáfrica deja de participar en los Juegos Olímpicos a partir de 1960?",
 "options": {
 "a": "Por el régimen del apartheid.",
@@ -987,7 +1003,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 68,
+"id": 69,
 "q": "¿En qué deporte ganó España la única medalla de bronce en Roma 60?",
 "options": {
 "a": "Vela.",
@@ -1001,7 +1017,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 69,
+"id": 70,
 "q": "¿Quién fue el abanderado de Roma 1960?",
 "options": {
 "a": "Jaime Berenguer (Gimnasia).",
@@ -1017,7 +1033,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 70,
+"id": 71,
 "q": "¿En qué categoría ganó el oro olímpico el campeón Muhammad Alíen Roma 1960?",
 "options": {
 "a": "Semipesado.",
@@ -1031,7 +1047,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 71,
+"id": 72,
 "q": "Cabe destacar en las Olimpiadas de Roma 1960:",
 "options": {
 "a": "El cambio del orden de las disciplinas, dejando el atletismo para el final.",
@@ -1047,7 +1063,23 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 72,
+"id": 73,
+"q": "Cabe destacar en las Olimpiadas de Roma 1960:",
+"options": {
+"a": "La imagen de este año olímpico es la de la loba amamantando a Rómulo y Remo que según la mitología son los fundadores de Roma.",
+"b": "El regatista danés Paul Elvstrom gana su cuarta medalla de oro seguida en clase Finn, siendo el primer atleta en conseguir esta hazaña en una competición individual. Los otros dos atletas que también han conseguido este hecho son Al Oerter y Carl Lewis.",
+"c": "Wilma Rudolph, una antigua enferma de polio, gana tres medallas de oro en competiciones de velocidad en pista.",
+"d": "Todas son correctas."
+},
+"answer": "d",
+"section": "Roma 1960",
+"page": 21,
+"tags": [
+"cabe"
+]
+},
+{
+"id": 74,
 "q": "Cabe destacar de los juegos de Roma 1960:",
 "options": {
 "a": "Abebe Bikila de Etiopía gana la maratón descalzo, y se convierte en el primer Campeón Olímpico negro africano.",
@@ -1063,7 +1095,23 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 73,
+"id": 75,
+"q": "Cabe destacar de los juegos de Roma 1960:",
+"options": {
+"a": "Los Juegos Olímpicos tuvieron una organización técnica perfecta, creándose una comisión para cada problema. Todavía hoy en día es admirado el Stadio dei Marmori con sus estatuas blancas representando las sesenta disciplinas deportivas el Palazetto dello Sport y la gran obra del palacio de los deportes.",
+"b": "La ceremonia inaugural fue por primera vez en la historia de las olimpiadas un espectáculo de color impresionante. Fue la primera vez que la Maratón no comenzó ni acabó en el estadio olímpico.",
+"c": "Los Juegos se realizaron en la ciudad donde el emperador Teodosio el Grande, aconsejado por las autoridades cristianas, a través de San Ambrosio, obispo de Milán, abolió los Juegos Olímpicos de la Antigüedad por considerarlos paganos. Las construcciones realizadas para albergar las pruebas eran una mezcla entre la antigüedad y la modernidad de esa década. Un ejemplo era el Estadio de Mármol, que fue mandado construir por el dictador Benito Mussolini y que cuenta con sesenta estatuas blancas que representan las diversas disciplinas olímpicas.",
+"d": "Todas son correctas."
+},
+"answer": "d",
+"section": "Roma 1960",
+"page": 22,
+"tags": [
+"cabe"
+]
+},
+{
+"id": 76,
 "q": "¿Qué novedades se introdujeron en las Olimpiadas de Tokio en 1964?",
 "options": {
 "a": "Judo, voleibol, esgrima femenina y se pasa a correr de 6 calles a 8.",
@@ -1077,7 +1125,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 74,
+"id": 77,
 "q": "¿Cuáles son las armas en la esgrima?",
 "options": {
 "a": "Florín, espada y sable.",
@@ -1091,7 +1139,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 75,
+"id": 78,
 "q": "¿Cuál es el único deporte olímpico de origen Español?",
 "options": {
 "a": "El tiro al pichón.",
@@ -1105,7 +1153,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 76,
+"id": 79,
 "q": "¿Quién fue el abanderado español en las Juegos de 1964 en Tokio?",
 "options": {
 "a": "Eduardo Dualde. (Hockey)",
@@ -1121,7 +1169,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 77,
+"id": 80,
 "q": "¿Por qué no se habían celebrado los JJOO en Japón hasta 1964?",
 "options": {
 "a": "Porque querían que los JJOO coincidieran con el año del dragón.",
@@ -1135,7 +1183,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 78,
+"id": 81,
 "q": "Cabe destacar de los juegos de Tokio 1964:",
 "options": {
 "a": "Que España no ganó ninguna medalla.",
@@ -1151,7 +1199,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 79,
+"id": 82,
 "q": "¿Quién fue el abanderado español en México 1968?",
 "options": {
 "a": "Paquillo Fernández. (Marcha).",
@@ -1167,7 +1215,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 80,
+"id": 83,
 "q": "¿Quién fue la primera mujer en encender el pebetero de unos Juegos en México 1968?",
 "options": {
 "a": "Enriqueta Basilio.",
@@ -1181,7 +1229,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 81,
+"id": 84,
 "q": "¿Cuál fue la mayor polémica a causa de la elección de México 68?",
 "options": {
 "a": "La altitud de dicha ciudad.",
@@ -1195,7 +1243,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 82,
+"id": 85,
 "q": "¿Qué novedades se introducen a partir de los Juegos Olímpicos de 1968 (primeros juegos en Latinoamérica)?",
 "options": {
 "a": "Una mejora considerable en los materiales: las pistas de tartán, la fibra de vidrio para las pértigas y los trampolines, y los cronómetros que marcaban por primera vez las centésimas de segundo.",
@@ -1209,7 +1257,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 83,
+"id": 86,
 "q": "¿De qué forma protestaron los atletas afroamericanos Tommie Smith y John Carlos en México 1968, ante la discriminación racial en su país?",
 "options": {
 "a": "No subiendo al podio a recoger las medallas.",
@@ -1223,7 +1271,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 84,
+"id": 87,
 "q": "Cabe destacar de los Juegos de México 1968:",
 "options": {
 "a": "Los deportistas afroamericanos renunciaron a competir porque se sentían discriminados en su país como el jugador de baloncesto Kareem Abdul-Jabbar.",
@@ -1239,7 +1287,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 85,
+"id": 88,
 "q": "¿Cuántas medallas ganó España en México 1968?",
 "options": {
 "a": "Dos oros y una plata.",
@@ -1253,7 +1301,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 86,
+"id": 89,
 "q": "¿Qué atentado se cometió en las Olimpiadas de 1972?",
 "options": {
 "a": "Asesinaron a un grupo de turistas palestinos.",
@@ -1267,7 +1315,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 87,
+"id": 90,
 "q": "¿Desde qué año el boxeo fue aceptado como deporte Olímpico?",
 "options": {
 "a": "No ha sido aceptado como deporte Olímpico.",
@@ -1281,7 +1329,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 88,
+"id": 91,
 "q": "¿Durante cuánto tiempo se suspendieron los Juegos en Múnich 72?",
 "options": {
 "a": "24-34 horas.",
@@ -1295,7 +1343,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 89,
+"id": 92,
 "q": "¿Qué nadador ganó 7 medallas de oro en Múnich 72 y batió todos los récords?",
 "options": {
 "a": "Roland Mates.",
@@ -1309,7 +1357,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 90,
+"id": 93,
 "q": "El abanderado Español en Múnich 72 fue:",
 "options": {
 "a": "El jinete Carlos D’EliA.",
@@ -1325,7 +1373,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 91,
+"id": 94,
 "q": "En Múnich 72 cabe destacar:",
 "options": {
 "a": "La creación de la primera foto finish en color.",
@@ -1341,7 +1389,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 92,
+"id": 95,
 "q": "Cabe destacar de los Juegos Olímpicos de Montreal 1976:",
 "options": {
 "a": "La gimnasta rumana de 14 años Nadia Comaneci causó sensación por ser la primera a la cual concedieron una puntuación perfecta de 10.0 en barras asimétricas. Obtuvo en total siete puntuaciones 10.0.",
@@ -1357,7 +1405,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 93,
+"id": 96,
 "q": "¿Cuántas medallas de oro, plata o bronce ganó España en Montreal 1976?",
 "options": {
 "a": "1 de oro, 2 de plata, 0 de bronce.",
@@ -1371,7 +1419,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 94,
+"id": 97,
 "q": "¿Quién fue el abanderado español en Montreal 1976?",
 "options": {
 "a": "Enrique Rodríguez Cal. (Boxeador)",
@@ -1387,7 +1435,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 95,
+"id": 98,
 "q": "¿Quién fue el abanderado del equipo olímpico español en Moscú 1980?",
 "options": {
 "a": "Fernando Romay (Baloncesto).",
@@ -1403,7 +1451,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 96,
+"id": 99,
 "q": "¿Por qué faltaron países a la cita de 1980 Moscú?",
 "options": {
 "a": "Falta de seguridad.",
@@ -1417,7 +1465,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 97,
+"id": 100,
 "q": "Cabe destacar de los Juegos Olímpicos de Moscú 1980:",
 "options": {
 "a": "La deuda que contrae la URRS.",
@@ -1433,7 +1481,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 98,
+"id": 101,
 "q": "Junto con los Ángeles (1932/1984), ¿qué otras ciudades han repetido sede olímpica?",
 "options": {
 "a": "París (1900/1924/2024), Londres (1908/1948/2012) y Atenas (1896/2004).",
@@ -1447,7 +1495,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 99,
+"id": 102,
 "q": "Cabe destacar de los Juegos Olímpicos de los Ángeles 1984:",
 "options": {
 "a": "Por primera vez en la historia de los Juegos, se disputa el maratón femenino, en el que se impuso con rotundidad la estadounidense Joan Beanoit.",
@@ -1463,7 +1511,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 100,
+"id": 103,
 "q": "¿Quién fue el abanderado de España en los Ángeles 1984?",
 "options": {
 "a": "Felipe de Borbón. (Vela)",
@@ -1479,7 +1527,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 101,
+"id": 104,
 "q": "¿De qué está hecha la estáfela (el testigo en atletismo)?",
 "options": {
 "a": "Hierro.",
@@ -1493,7 +1541,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 102,
+"id": 105,
 "q": "¿Qué consiguió Carl Lewis cuando ganó los oros en los 100, 200, 4x100 y el salto de longitud?",
 "options": {
 "a": "Muchas medallas.",
@@ -1507,7 +1555,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 103,
+"id": 106,
 "q": "¿Cuál fue la 1ª ciudad en obtener ganancias en los JJOO?",
 "options": {
 "a": "Los Ángeles.",
@@ -1521,7 +1569,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 104,
+"id": 107,
 "q": "¿Cuántos y cuáles son los estilos de competición que existen en natación?",
 "options": {
 "a": "3: crol, espalda, braza.",
@@ -1535,7 +1583,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 105,
+"id": 108,
 "q": "¿Qué países boicotearon las olimpiadas de 1984, no asistiendo?",
 "options": {
 "a": "Italia.",
@@ -1549,7 +1597,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 106,
+"id": 109,
 "q": "¿A qué nadador se le apodó con el nombre de “El Albatros” y se convirtió en el hombre estrella en los Ángeles 84?",
 "options": {
 "a": "Michael Gross.",
@@ -1563,7 +1611,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 107,
+"id": 110,
 "q": "¿Quién diseñó la mascota de los Ángeles 84 y cómo se llamaba?",
 "options": {
 "a": "Meter Jonh – Albatra.",
@@ -1577,7 +1625,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 108,
+"id": 111,
 "q": "¿Qué medalla consiguió la selección de España masculina de baloncesto en los JJOO de los Ángeles1984?",
 "options": {
 "a": "Oro.",
@@ -1591,7 +1639,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 109,
+"id": 112,
 "q": "¿Cuándo fue la primera vez que se disputó el windsurf como modalidad olímpica?",
 "options": {
 "a": "En las olimpiadas de la Era Antigua, ya lo practicaban los Fenicios.",
@@ -1605,7 +1653,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 110,
+"id": 113,
 "q": "¿Qué únicos españoles ganaron medalla de oro, en las Olimpiadas de 1984 en Los Ángeles?",
 "options": {
 "a": "Luis Doreste y Roberto Molina. (Vela)",
@@ -1619,7 +1667,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 111,
+"id": 114,
 "q": "¿Quién dio positivo por consumir esteroides en Seúl 88 en atletismo?",
 "options": {
 "a": "Carl Lewis.",
@@ -1633,7 +1681,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 112,
+"id": 115,
 "q": "¿Cuál es la última prueba con la que se clausuran los Juegos Olímpicos?",
 "options": {
 "a": "Salto de altura.",
@@ -1647,7 +1695,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 113,
+"id": 116,
 "q": "¿En qué lugar y en qué año tuvo lugar la primera aparición del Taekwondo como deporte de exhibición?",
 "options": {
 "a": "Barcelona 92.",
@@ -1661,7 +1709,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 114,
+"id": 117,
 "q": "¿Quién fue el abanderado en Seúl 88?",
 "options": {
 "a": "El príncipe Felipe.",
@@ -1677,7 +1725,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 115,
+"id": 118,
 "q": "¿Cuántas medallas consiguió España en los Juegos de Seúl 88?",
 "options": {
 "a": "Seis: 3 de oro, 1 de plata, 2 de bronce.",
@@ -1691,7 +1739,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 116,
+"id": 119,
 "q": "1988 fue el año en que se reintrodujo el tenis en los Juegos Olímpicos. ¿Después de cuántos años?",
 "options": {
 "a": "Después de 12 años.",
@@ -1705,7 +1753,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 117,
+"id": 120,
 "q": "¿Quién fue el atleta que consiguió en Seúl 88 siete medallas en natación? (Cinco de ellas de oro: 50m y 100m libres y en los tres relevos, Plata en 100m mariposa y bronce en los 200m libres.).",
 "options": {
 "a": "Kafelniter.",
@@ -1719,7 +1767,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 118,
+"id": 121,
 "q": "En las modalidades de gimnasia, se exigen seis ejercicios libres en la categoría masculina y cuatro en la categoría femenina, que son:",
 "options": {
 "a": "Barra fija, barras paralelas, potro (salto), caballo con arcos, anillas y ejercicios en el suelo, (Para masculina) y ejercicios en el suelo, potro (salto), barra de equilibrio y barras asimétricas (para femenino).",
@@ -1733,7 +1781,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 119,
+"id": 122,
 "q": "¿Quién logró seis medallas de oro en los 50m y 100m libres, 100m espalda, 100m mariposa, relevos 4 x 100 libres y 4 x 100 cuatro estilos, convirtiéndose en la 1ª deportista que gana seis oros en unos mismos Juegos?",
 "options": {
 "a": "Anita Petrova de Ucrania.",
@@ -1747,7 +1795,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 120,
+"id": 123,
 "q": "¿Cuál es el único deporte olímpico que tiene su nacimiento en España?",
 "options": {
 "a": "La esgrima, con la famosa “espada ropera”, es decir, arma que forma parte del vestuario o indumento caballeresco.",
@@ -1761,7 +1809,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 121,
+"id": 124,
 "q": "Cabe destacar de los Juegos Olímpicos de Seúl 1988:",
 "options": {
 "a": "La velocista Florence Griffith que ganó tres medallas de oro (en 100, 200 y relevos 4 x 100 m.) y una de plata (en relevos 4 x 400 m.). Además en los 200 m batió el récord mundial dos veces el mismo día, en semifinales y en la final.",
@@ -1777,7 +1825,23 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 122,
+"id": 125,
+"q": "Cabe destacar de los Juegos Olímpicos de Seúl 1988:",
+"options": {
+"a": "Durante la ceremonia de clausura, mujeres coreanas entregaron velas a las mujeres españolas para simbolizar el cambio de sede de la Olimpiada.",
+"b": "La mascota llamada Hodori, representaba un legendario tigre de las tradiciones coreanas.",
+"c": "Las pruebas anti-dopaje fueron estrella en estos Juegos con la descalificación de 7 atletas, entre los que destaca Ben Johnson quien batiera todos los récords en los 100m. Tras la descalificación de Ben Johnson, Carl Lewis obtuvo dos oros y una plata.",
+"d": "Todas son correctas."
+},
+"answer": "d",
+"section": "Seúl 1988",
+"page": 35,
+"tags": [
+"cabe"
+]
+},
+{
+"id": 126,
 "q": "¿Cuántas medallas ganó España en atletismo en Barcelona 92?",
 "options": {
 "a": "5 (dos oros, dos platas y un bronce).",
@@ -1791,7 +1855,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 123,
+"id": 127,
 "q": "¿Quién dio el último relevo de la antorcha antes de encender el pebetero?",
 "options": {
 "a": "Antonio Rebollo.",
@@ -1805,7 +1869,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 124,
+"id": 128,
 "q": "¿Cómo se llama el arquero paralímpico que encendió el pebetero en Barcelona 1992?",
 "options": {
 "a": "Juan Cebolla.",
@@ -1819,7 +1883,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 125,
+"id": 129,
 "q": "¿Quién fue el abanderado Español en las Olimpiadas de Barcelona 1992?",
 "options": {
 "a": "La Infanta Elena.",
@@ -1835,7 +1899,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 126,
+"id": 130,
 "q": "La única gimnasta en el mundo que ha estado en cuatro finales Olímpicas consecutivas es:",
 "options": {
 "a": "Almudena Cid. (Beijing 2008, Atenas 2004, Sydney 2000 y Atlanta 1996).",
@@ -1849,7 +1913,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 127,
+"id": 131,
 "q": "¿Qué atleta ganó en los Juegos Olímpicos de Barcelona 92 seis medallas de oro?",
 "options": {
 "a": "Vitaly Scherbo. (Gimnasia)",
@@ -1863,7 +1927,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 128,
+"id": 132,
 "q": "¿Cómo se llamó la mascota de los Juegos Olímpicos de Barcelona 92?",
 "options": {
 "a": "Naranjito.",
@@ -1877,7 +1941,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 129,
+"id": 133,
 "q": "¿Qué representación mitológica se llevó a cabo en la inauguración de los Juegos Olímpicos de Barcelona 92?",
 "options": {
 "a": "El asesinato del minotauro.",
@@ -1891,7 +1955,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 130,
+"id": 134,
 "q": "¿En Barcelona 92 quién boicoteó las olimpiadas?",
 "options": {
 "a": "La lluvia.",
@@ -1905,7 +1969,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 131,
+"id": 135,
 "q": "¿Qué país destacó por su presencia en los JJOO de Barcelona 92?",
 "options": {
 "a": "Cabe destacar la presencia de los sudafricanos que volvieron a los juegos tras 32 años de ausencia.",
@@ -1919,7 +1983,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 132,
+"id": 136,
 "q": "¿Quién fue el último relevista de la antorcha en Atlanta 1996?",
 "options": {
 "a": "Mohammed Ali. (boxeador)",
@@ -1933,7 +1997,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 133,
+"id": 137,
 "q": "Cabe destacar de los Juegos Olímpicos de Atlanta 1996:",
 "options": {
 "a": "Fue seleccionada como sede el 18 de septiembre de 1990 en la ciudad japonesa de Tokio, a pesar de las expectativas de que Atenas fuera la elegida, conmemorando los 100 años de la restauración de las Olimpiadas en la Era Moderna por el Barón Pierre de Coubertain. Esto causó polémica, además del hecho de que era la segunda vez que se celebraban los juegos en Estados Unidos en un corto plazo de tiempo, tan solo doce años pues se habían celebrado en Los Ángeles en 1984.",
@@ -1949,7 +2013,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 134,
+"id": 138,
 "q": "¿Quién fue el abanderado Español en las Olimpiadas de Atlanta 1996?",
 "options": {
 "a": "La Infanta Helena (hípica).",
@@ -1965,7 +2029,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 135,
+"id": 139,
 "q": "¿Quién es considerado el mejor saltador de longitud de todos los tiempos y que ganó en Atlanta 1996 a sus 35 años su cuarto oro consecutivo?",
 "options": {
 "a": "Usaint Bolt",
@@ -1979,7 +2043,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 136,
+"id": 140,
 "q": "¿Qué español consiguió un oro en Atlanta 1996 en contrarreloj?",
 "options": {
 "a": "Abraham Olano.",
@@ -1993,7 +2057,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 137,
+"id": 141,
 "q": "El voley playa fue considerado deporte olímpico en:",
 "options": {
 "a": "En Barcelona 1992.",
@@ -2007,7 +2071,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 138,
+"id": 142,
 "q": "¿Cuándo se convirtió el triatlón en deporte olímpico?",
 "options": {
 "a": "Sydney 2000.",
@@ -2021,7 +2085,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 139,
+"id": 143,
 "q": "¿Quién fue el abanderado español en Sydney 2000?",
 "options": {
 "a": "Manuel Estriarte (waterpolista)",
@@ -2037,7 +2101,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 140,
+"id": 144,
 "q": "¿Con qué premio fue galardonado el abanderado español en Sydney 2000, Manuel Estiarte?",
 "options": {
 "a": "Mejor cocinero.",
@@ -2053,7 +2117,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 141,
+"id": 145,
 "q": "¿Cuál es el deporte de raqueta más rápido?",
 "options": {
 "a": "Bádminton.",
@@ -2067,7 +2131,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 142,
+"id": 146,
 "q": "¿Cómo denominan algunos a las olimpiadas de Sydney 2000?",
 "options": {
 "a": "“Juegos Azules”.",
@@ -2081,7 +2145,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 143,
+"id": 147,
 "q": "En gimnasia, ¿qué diferencias hay entre la modalidad masculina y la femenina?",
 "options": {
 "a": "La modalidad masculina usa música y aparatos.",
@@ -2095,7 +2159,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 144,
+"id": 148,
 "q": "¿En qué modalidad deportiva ganó Gervasio Deferr en los Juegos Olímpicos de Sydney 2000?",
 "options": {
 "a": "En gimnasia, suelo.",
@@ -2109,7 +2173,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 145,
+"id": 149,
 "q": "¿Cuál de estas nadadoras es canaria y pertenece a la selección española de natación sincronizado?",
 "options": {
 "a": "Gemma Mengual.",
@@ -2123,7 +2187,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 146,
+"id": 150,
 "q": "¿En qué año olímpico, se añadió la modalidad femenina de halterofilia?",
 "options": {
 "a": "2000.",
@@ -2137,7 +2201,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 147,
+"id": 151,
 "q": "¿Quién fue el abanderado de España en Atenas 2004?",
 "options": {
 "a": "Isabel Fernández (judoka).",
@@ -2153,7 +2217,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 148,
+"id": 152,
 "q": "¿Quién fue la gran figura en natación de las Olimpiadas de Atenas 2004 (masculino)?",
 "options": {
 "a": "Homer (6 oros).",
@@ -2167,7 +2231,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 149,
+"id": 153,
 "q": "¿Cuál fue el símbolo con el que se premió a todos los participantes que accedieron al podio de Atenas 04?",
 "options": {
 "a": "Una placa conmemorativa y la medalla.",
@@ -2181,7 +2245,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 150,
+"id": 154,
 "q": "¿Quién es el abanderado español en los juegos de Atenas 2004?",
 "options": {
 "a": "Isabel Fernández (Yudoca).",
@@ -2197,7 +2261,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 151,
+"id": 155,
 "q": "¿Quién encendió el pebetero?",
 "options": {
 "a": "Nikos Kaklamanakis (windsurfista).",
@@ -2211,7 +2275,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 152,
+"id": 156,
 "q": "¿Quién fue el máximo anotador del torneo de básket de Atenas 04?",
 "options": {
 "a": "Lebron James.",
@@ -2225,7 +2289,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 153,
+"id": 157,
 "q": "¿Cuántas medallas consiguió España en Atenas 2004?",
 "options": {
 "a": "20.",
@@ -2239,7 +2303,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 154,
+"id": 158,
 "q": "Cabe destacar de los Juegos Olímpicos de Atenas 2004:",
 "options": {
 "a": "Cada país participante se vio representado por un atleta que portaba su respectiva bandera, seguidos del resto de los atletas con todas las delegaciones entremezcladas (simbolizando unidad y paz).",
@@ -2255,7 +2319,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 155,
+"id": 159,
 "q": "¿Cuántas medallas de oro ganó Phelps en natación (Pekín 2008)?",
 "options": {
 "a": "5 medallas.",
@@ -2269,7 +2333,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 156,
+"id": 160,
 "q": "¿Cómo se encendió el pebetero olímpico de Pekín 2008?",
 "options": {
 "a": "Corriendo por el aire alrededor del estadio con la antorcha.",
@@ -2283,7 +2347,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 157,
+"id": 161,
 "q": "¿Por qué Gervasio Deferr no aceptó ser el abanderado, tomando su relevo David Cal?",
 "options": {
 "a": "Porque le daba mucha vergüenza",
@@ -2299,7 +2363,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 158,
+"id": 162,
 "q": "Cabe destacar de Pekín 2008:",
 "options": {
 "a": "Usain Bolt (Relámpago Bolt) es un atleta jamaicano especialista en velocidad. Posee actualmente la plusmarca mundial de los 100 m lisos, con una marca de 9,69 s, la de los 200 metros lisos de 19,30 s, y los 4x100 metros lisos 37,10s siendo el primer atleta que bate las tres plusmarcas durante el transcurso de una misma competición.",
@@ -2315,7 +2379,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 159,
+"id": 163,
 "q": "¿Con qué están relacionadas las mascotas de los Juegos Olímpicos de Pekín 2008?",
 "options": {
 "a": "Animales tradicionales.",
@@ -2329,7 +2393,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 160,
+"id": 164,
 "q": "Cabe destacar de los juegos olímpicos de Beijing 2008:",
 "options": {
 "a": "Que Yao Ming el máximo representante chino en la NBA fue el encargado de entregar la antorcha al ex atleta olímpico chino Li Ning, apodado el “Príncipe de la gimnasia artística” para encender el pebetero olímpico. Li Ning es el gimnasta más célebre de la historia de China tras ganar seis medallas en los Juegos de Los Ángeles 1984, tres de ellas de oro.",
@@ -2345,7 +2409,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 161,
+"id": 165,
 "q": "¿Cuál fue unos de los principales problemas que hubo en estas olimpiadas que no hubo en otras?",
 "options": {
 "a": "La contaminación atmosférica.",
@@ -2359,7 +2423,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 162,
+"id": 166,
 "q": "¿Quién fue el abanderado de los Juegos Olímpicos de Londres 2012?",
 "options": {
 "a": "Pau Gasol.",
@@ -2375,7 +2439,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 163,
+"id": 167,
 "q": "¿Cuántas veces ha sido Londres sede de unos juegos olímpicos?",
 "options": {
 "a": "2 veces.",
@@ -2389,7 +2453,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 164,
+"id": 168,
 "q": "El deportista olímpico más condecorado de todos los tiempos es:",
 "options": {
 "a": "Usain Bolt.",
@@ -2403,7 +2467,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 165,
+"id": 169,
 "q": "¿Cuántas medallas consiguió España en las Olimpiadas de Londres 2012?",
 "options": {
 "a": "22",
@@ -2417,7 +2481,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 166,
+"id": 170,
 "q": "Cabe destacar de los Juegos Olímpicos de Londres 2012:",
 "options": {
 "a": "Londres es la primera ciudad en ser sede de las Olimpiadas en tres ocasiones, habiendo sido anfitriona anteriormente en 1908 y en 1948.",
@@ -2433,7 +2497,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 167,
+"id": 171,
 "q": "Cabe destacar de los Juegos de Río 2016:",
 "options": {
 "a": "Río de Janeiro se declaró estado de \"calamidad pública\" a mes y medio de los Juegos Olímpicos por no tener dinero para finalizar las obras. El coste de infraestructura de los juegos olímpicos ha tenido un sobrecoste del 51 %.",
@@ -2449,7 +2513,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 168,
+"id": 172,
 "q": "¿El deportista olímpico más condecorado de todos los tiempos con un total de 28 medallas y que posee el récord de más medallas olímpicas de oro con 23 es?",
 "options": {
 "a": "Usain Bolt.",
@@ -2463,7 +2527,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 169,
+"id": 173,
 "q": "¿Quién fue el abanderado español de los Juegos Olímpicos de Río 2016?",
 "options": {
 "a": "Carolina Marín.",
@@ -2479,7 +2543,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 170,
+"id": 174,
 "q": "¿Quién encendió el pebetero en Río de Janeiro?",
 "options": {
 "a": "Michel Temer, presidente interino de Brasil.",
@@ -2493,7 +2557,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 171,
+"id": 175,
 "q": "¿Quiénes fueron los atletas más destacados de los JJOO de Río 2016?",
 "options": {
 "a": "Michael Phelps (Estados Unidos), 5 oros y una plata en natación junto con Katie Ledecky (Estados Unidos), 4 oros y una plata en natación.",
@@ -2507,7 +2571,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 172,
+"id": 176,
 "q": "¿Papel de España en los JJOO?",
 "options": {
 "a": "El equipo español obtuvo en total 17 medallas, 7 de oro, 4 de plata y 6 de bronce, confirmando así la segunda mejor participación nacional en unos Juegos, por el número de oros, junto con Londres 2012, tras la de Barcelona 1992.",
@@ -2521,7 +2585,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 173,
+"id": 177,
 "q": "¿Deportistas españoles más relevantes en Río 2016?",
 "options": {
 "a": "Mireia Belmote (oro y plata natación).",
@@ -2535,7 +2599,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 174,
+"id": 178,
 "q": "¿Quién fue el abanderado/a de España en la ceremonia de inauguración de los Juegos Olímpicos de Tokio 2020 (aunque se celebraron en 2021 por la pandemia)?",
 "options": {
 "a": "Mireia Belmonte y Saúl Craviotto (1º vez que son dos abanderados).",
@@ -2551,7 +2615,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 175,
+"id": 179,
 "q": "¿Quién fue la atleta que encendió el pebetero olímpico en la ceremonia de apertura?",
 "options": {
 "a": "Simone Biles. (Tenista).",
@@ -2565,7 +2629,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 176,
+"id": 180,
 "q": "¿Qué deportista español consiguió la primera medalla de oro para España en Tokio 2020?",
 "options": {
 "a": "Sandra Sánchez (kárate, Kata) y estuvo en el Colegio. (Ésta es la correcta lelito!!!).",
@@ -2579,7 +2643,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 177,
+"id": 181,
 "q": "¿Qué joven deportista español sorprendió al ganar oro olímpico en escalada deportiva, disciplina que debutaba en Tokio 2020?",
 "options": {
 "a": "Marcus Cooper.",
@@ -2593,7 +2657,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 178,
+"id": 182,
 "q": "¿Qué deporte debutó por primera vez en los Juegos Olímpicos de Tokio 2020?",
 "options": {
 "a": "Surf y Skate.",
@@ -2607,7 +2671,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 179,
+"id": 183,
 "q": "¿Quiénes fueron los abanderados de la delegación española en la ceremonia inaugural de París 2024?",
 "options": {
 "a": "Rafael Nadal y Jesulín de Ubrique. (tenis)",
@@ -2623,7 +2687,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 180,
+"id": 184,
 "q": "¿Quién o quiénes encendieron el pebetero olímpico al final de la ceremonia de apertura en París 2024?",
 "options": {
 "a": "Rafael Nadal.",
@@ -2637,7 +2701,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 181,
+"id": 185,
 "q": "Cabe destacar de Paris 2024 que los deportistas españoles que consiguieron medalla fueron:",
 "options": {
 "a": "Fran Garrigós (bronce en judo), Álvaro Martín (oro en marcha), María Pérez (oro y plata en marcha).",
@@ -2653,7 +2717,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 182,
+"id": 186,
 "q": "¿Quién fue considerado la gran figura de los Juegos Olímpicos de París 2024?",
 "options": {
 "a": "Léon Marchand, nadador francés que ganó cuatro oros en casa.",
@@ -2667,7 +2731,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 183,
+"id": 187,
 "q": "Como curiosidad en la ceremonia inaugural de París 2024, los atletas…",
 "options": {
 "a": "Desfilaron desnudos como en la antigua Grecia.",
@@ -2681,7 +2745,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 184,
+"id": 188,
 "q": "Los primeros Juegos Paralímpicos oficiales para deportistas discapacitados se organizaron por primera vez en:",
 "options": {
 "a": "Roma 1960.",
@@ -2695,7 +2759,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 185,
+"id": 189,
 "q": "En los Juegos Paralímpicos compiten:",
 "options": {
 "a": "Ciegos, discapacitados intelectuales, físicos y paralíticos cerebrales.",
@@ -2709,7 +2773,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 186,
+"id": 190,
 "q": "Cabe destacar de los Juegos Paralímpicos:",
 "options": {
 "a": "El origen de estos juegos está en Gran Bretaña cuando los hombres que habían participado en la Segunda Guerra Mundial que se habían quedado con daños en la médula espinal, decidieron reunirse para hacer deportes adaptados para ellos.",
@@ -2725,7 +2789,7 @@ const QUESTIONS = [
 ]
 },
 {
-"id": 187,
+"id": 191,
 "q": "Los juegos paralímpicos se celebran…",
 "options": {
 "a": "Cada cuatro años, en la misma ciudad y en las mismas instalaciones, justo al finalizar los JJOO normales.",
@@ -2739,7 +2803,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 188,
+"id": 192,
 "q": "¿Quién es la atleta española paralímpica más laureada?",
 "options": {
 "a": "Belén Esteban (cuatro medallas de oro del que cagó el moro).",
@@ -2753,7 +2817,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 189,
+"id": 193,
 "q": "¿Quiénes son los atletas paralímpicos más laureados?",
 "options": {
 "a": "Trischa Zorn, nadadora con discapacidad visual, cuenta en su haber con 51 medallas, siendo 41 de oro, 9 de plata y 5 de bronce. Ha participado en 7 JJ.00, destacando los celebrados en Seúl en 1988, donde consiguió 12 medallas de oro (10 individuales y 2 por equipo).",
@@ -2767,7 +2831,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 190,
+"id": 194,
 "q": "¿Quién ha sido de los pocos atletas que ha competido en los Juegos Paralímpicos como en los Olímpicos?",
 "options": {
 "a": "Marcos Rodríguez.",
@@ -2781,7 +2845,7 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 191,
+"id": 195,
 "q": "¿Quién es la atleta Tinerfeña paralímpica más laureada?",
 "options": {
 "a": "Michelle Alonso.",

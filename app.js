@@ -8,7 +8,7 @@
   const save = () => localStorage.setItem(LS, JSON.stringify(store));
   const fails = new Set(store.fails);
 
-  const TRAP_P = 0.5;
+  const TRAP_P = 0.15;
   const EXAM_N = 40;
 
   const sections = [...new Set(QUESTIONS.map(q => q.section))];
@@ -112,7 +112,7 @@
     const fb = $("fb");
     if (mode === "review" && isCabe) {
       fb.className = "fb ok";
-      fb.innerHTML = `Ojo: en el examen pueden cambiar un dato de alguna afirmación. Si alguna está mal, la correcta es <b>esa</b>, no «Todas son correctas».`;
+      fb.innerHTML = `Ojo: en el examen el profe puede cambiar una afirmación por otra claramente falsa. Si alguna es falsa, la respuesta es <b>esa</b>, no «Todas son correctas».`;
     } else fb.className = "fb hidden";
     $("nextBtn").classList.toggle("hidden", mode !== "review");
     $("nextBtn").textContent = idx + 1 >= pool.length ? "Ver resultado" : "Siguiente →";
@@ -121,10 +121,10 @@
   function explain(q) {
     if (q.trap) {
       const t = q.trap;
-      return `<span class="ex">Dato cambiado en la <b>${t.letter})</b>: pone <mark>${esc(t.to)}</mark>, lo correcto es <b>${esc(t.from)}</b>.</span>`;
+      return `<span class="ex">⚠️ ¡Trampa! La <b>${t.letter})</b> era falsa. La afirmación real es: <mark>${esc(t.original)}</mark></span>`;
     }
     if ((q.tags || []).includes("cabe") && CABE.isTodas(q.options[q.answer] || ""))
-      return `<span class="ex">Esta vez no había ningún dato cambiado.</span>`;
+      return `<span class="ex">Esta vez no había ninguna afirmación falsa.</span>`;
     return "";
   }
 
@@ -148,10 +148,6 @@
     }
     btns.find(b => b.dataset.l === q.answer).classList.add("ok");
     if (!ok) chosen.classList.add("bad");
-    if (q.trap) {
-      const tb = btns.find(b => b.dataset.l === q.trap.letter).querySelector(".T");
-      tb.innerHTML = esc(q.options[q.trap.letter]).replace(esc(q.trap.to), `<mark>${esc(q.trap.to)}</mark>`);
-    }
     const fb = $("fb");
     fb.className = "fb " + (ok ? "ok" : "bad");
     fb.innerHTML = (ok ? "✓ ¡Correcto!" : `✗ Era la <b>${q.answer.toUpperCase()})</b>`) + explain(q);
