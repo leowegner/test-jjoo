@@ -34,7 +34,10 @@ const ABANDERADOS = [
     .map(e => e[1])
     .filter(a => !/no particip|Guerra/i.test(a));
   const letters = ["a", "b", "c", "d"];
+  // Ediciones que ya tienen pregunta propia en questions.js: no se duplican.
+  const YA_EN_QUESTIONS = /^(Londres 1948|Helsinki 1952|Roma 1960|Tokio 1964|México 1968|Múnich 1972|Montreal 1976|Moscú 1980|Los Ángeles 1984|Seúl 1988|Barcelona 1992|Atlanta 1996|Sydney 2000|Atenas 2004|Londres 2012|Río de Janeiro 2016|Tokio 2020|París 2024)/;
   ABANDERADOS.forEach(([ed, ans], i) => {
+    if (YA_EN_QUESTIONS.test(ed)) return;
     // 3 distractores: otros abanderados, espaciados para variar
     const distract = names.filter(n => n !== ans);
     const picked = [
@@ -49,7 +52,7 @@ const ABANDERADOS = [
     const options = {};
     letters.forEach((l, k) => options[l] = opts[k]);
     QUESTIONS.push({
-      id: QUESTIONS.length,
+      id: Math.max(...QUESTIONS.map(x => x.id)) + 1,
       q: `¿Quién fue el abanderado español en los Juegos de ${ed}?`,
       options,
       answer: letters[ansPos],

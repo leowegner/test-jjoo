@@ -2245,22 +2245,6 @@ const QUESTIONS = [
 "tags": []
 },
 {
-"id": 154,
-"q": "¿Quién es el abanderado español en los juegos de Atenas 2004?",
-"options": {
-"a": "Isabel Fernández (Yudoca).",
-"b": "La Infanta Cristina. (Hípica).",
-"c": "Jaime Berenguer. (Esgrima)",
-"d": "Manuel Estriarte. (Waterpolo)"
-},
-"answer": "a",
-"section": "Atenas 2004",
-"page": 46,
-"tags": [
-"abanderado"
-]
-},
-{
 "id": 155,
 "q": "¿Quién encendió el pebetero?",
 "options": {

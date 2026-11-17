@@ -68,13 +68,24 @@
 
   // ---------- flow ----------
   function show(view) {
-    ["setup", "quiz", "results"].forEach(v => $(v).classList.toggle("hidden", v !== view));
+    ["setup", "quiz", "results", "list"].forEach(v => $(v).classList.toggle("hidden", v !== view));
     $("setupBar").classList.toggle("hidden", view !== "setup");
     $("quizBar").classList.toggle("hidden", view !== "quiz");
     $("resBar").classList.toggle("hidden", view !== "results");
     $("score").classList.toggle("hidden", view !== "quiz");
     window.scrollTo(0, 0);
   }
+
+  $("listBtn").onclick = () => {
+    $("listBody").innerHTML = QUESTIONS.map((q, i) => `
+      <div class="card" style="margin-bottom:10px">
+        <div class="meta">${i + 1} · ${esc(q.section)}</div>
+        <div class="qtext">${esc(q.q)}</div>
+        ${Object.entries(q.options).map(([k, v]) => `<div style="margin-top:6px"><b>${k})</b> ${esc(v)}</div>`).join("")}
+      </div>`).join("");
+    show("list");
+  };
+  $("listBack").onclick = () => show("setup");
 
   function start(list) {
     if (!list.length) return;
